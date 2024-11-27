@@ -5,6 +5,6 @@ Para ésta prueba del challenge, se realiza un pipeline de CI/CD utilizando GitH
 El workflow funciona de la siguiente manera:
 1. Se modifica el archivo index.html
 2. Se realiza commit y push del código al repositorio
-3. GitHub Actions realiza automáticamente:
+3. GitHub Actions:
     - Construye una nueva imagen de Nginx con los cambios en el index.html
     - Sube la imagen a [DockerHub](https://hub.docker.com/repository/docker/evancauteren/nginx-moni/tags)
